@@ -1,6 +1,6 @@
 {
   "name": "tokenstream",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Asynchronous tokenizer (stream scanner) powered by Streams 2 Transform stream",
   "author": "dtg [at] lengo [dot] org",
   "license": "MIT",
