@@ -1,0 +1,10 @@
+{
+  "bail": false,
+  "verbose": false,
+  "roots": [ "./test/" ],
+  "testRegex": ".*\\.?(test|spec)\\.js$",
+  "collectCoverage": true,
+  "collectCoverageFrom": [ "lib/**/*.js" ],
+  "coverageReporters": [ "json", "lcov" ],
+  "transform": { "lib/.*\\.js$": "coverage-putty/istanbul-ignore.js" }
+}

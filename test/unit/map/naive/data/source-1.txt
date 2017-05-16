@@ -1,0 +1,28 @@
+
+//  Line comment.
+ ///  Other line comment.
+  /*/
+    /*
+Tokenizing.
+Not parsing ;)
+    */ /reg\/exp/foo
+
+v = km
+//(
+/ h
+
+v =
+//(
+/ h /g
+
+@annotate
+if (x == !$x_42("f\"oo", -bar.baz)*+1) {
+    while (_%_-0&&''&~2 | +4 =< ^4 & 4 >= "ö") {
+        x = ?
+        x += x ? 1 : 2 |= 3 & ^= ~= &=
+        x -= x ? 1 < `bar\`` : 2;
+        x *= x ? 1 : 2 !== [];
+        x /= x ? 1 : 2 !==
+        x %= x ? 1 : [2] > /^.\/\/"*$/;
+    }
+}
