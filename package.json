@@ -35,7 +35,6 @@
     "typescript": "2.3.2"
   },
   "scripts": {
-    "postinstall": "make list --no-print-directory && echo",
     "test": "jest --config jest.json --no-watchman --no-cache"
   }
 }
